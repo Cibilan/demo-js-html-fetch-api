@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Demo V1 API</title>
+  
+
+</head>
+<body>
+
+
+<br>
+<br>
+<label for="postNotify">Post Notification</label>
+<br>
+<textarea id="postNotify" name="postNotify" rows="10" cols="40">
+{
+  "category": "Trasactional",
+  "channel": "INAPP",
+  "createdOn": "2020-06-15T13:48:59Z",
+  "message": "test1",
+  "notifyTrackerId": "tr999",
+  "status": "DELETED",
+  "userId": "user003"
+}
+  </textarea>
+  <br>
+  <button id='postN'> Post </button>
+
+  <br>
+
+  <hr>
+  <br>
+<input type="text" id="notifyTrackerId" value="tr999"> Tracker ID </input>
+<button id='getNotify'> Get Notification </button>
+
+<pre id="GFG_DOWN"> Notification Details
+</pre> 
+<br>
+
+  <hr>
+  <br>
+<input type="text" id="userId" value="user001"> User ID </input>
+<br>
+<br>
+<input type="text" id= "startDate" value="2020-02-15"> From Date </input>
+<br>
+<br>
+<button id='getNotifyList'> Get Notification List </button>
+
+<pre id="ALL_Notifications"> 
+</pre> 
+<br>
+<br>
+
+<script  src="./script.js"></script>
+
+</body>
+</html>
